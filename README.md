@@ -27,19 +27,19 @@ Dafür soll die Method des [Test-Driven-Developments](https://martinfowler.com/b
    ```bash
    composer install
    cp .env.example .env
-   sail up -d
-   sail artisan key:generate
+   ./vendor/bin/sail up -d
+   ./vendor/bin/sail artisan key:generate
    ```
 
 2. **Datenbank einrichten**
    ```bash
-   sail artisan migrate
-   sail artisan db:seed
+   ./vendor/bin/sail artisan migrate
+   ./vendor/bin/sail artisan db:seed
    ```
 
 3. **Tests ausführen**
    ```bash
-   sail artisan test
+   ./vendor/bin/sail artisan test
    ```
 
 
