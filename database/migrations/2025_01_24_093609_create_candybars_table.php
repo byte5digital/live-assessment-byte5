@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tasks', function (Blueprint $table) {
+        Schema::create('candy_bars', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->text('description')->nullable();
-            $table->boolean('is_completed')->default(false);
-            $table->date('due_date')->nullable();
+            $table->string('name')->unique();
+            $table->integer('quantity')->default(0);
+            $table->integer('popularity')->default(0);
+            $table->boolean('contains_chocolate')->default(false);
+            $table->date('last_bought');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tasks');
+        Schema::dropIfExists('candy_bars');
     }
 };

@@ -12,12 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks",
+					"raw": "{{base_url}}/candybars",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"tasks"
+						"candybars"
 					]
 				}
 			},
@@ -29,12 +29,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks/1",
+					"raw": "{{base_url}}/candybars/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"tasks",
+						"candybars",
 						"1"
 					]
 				}
@@ -56,12 +56,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/tasks",
+					"raw": "{{base_url}}/candybars",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"tasks"
+						"candybars"
 					]
 				}
 			},
@@ -82,13 +82,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/tasks/21",
+					"raw": "{{base_url}}/candybars/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"tasks",
-						"21"
+						"candybars",
+						"1"
 					]
 				}
 			},
@@ -100,13 +100,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks/21",
+					"raw": "{{base_url}}/candybars/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"tasks",
-						"21"
+						"candybars",
+						"1"
 					]
 				}
 			},

@@ -1,20 +1,20 @@
-# byte5 Live Assessment: Task-API: Test-Driven Bugfixing Challenge
+# byte5 Live Assessment: CandyBar API
 
 
 ## 📌 Projektübersicht
-Dieses Laravel-Projekt ist eine einfache Task-API mit CRUD-Funktionen.  
-Deine Aufgabe ist es, **Tests zu schreiben**, um vorhandene Fehler zu identifizieren und diese anschließend zu beheben.
+Für unser Office benötigen wir eine API zur Verwaltung unserer beliebten **CandyBar**
+
+Deine Aufgabe ist es, das vorbereitete Projekt fertigzustellen und einen Controller für die CandyBar API zu entwickeln. 
+
+Dafür soll die Method des [Test-Driven-Developments](https://martinfowler.com/bliki/TestDrivenDevelopment.html) genutzt werden.
 
 ---
 
 ## 🎯 Aufgabenstellung
 ### **Ziel:**  
-1. Schreibe **Feature-Tests**, um die Funktionalität der API-Endpunkte zu überprüfen.  
-2. Behebe die durch Tests aufgedecketen Fehler.  
-
-### **Hinweis:**  
-- Die API enthält **gezielte Bugs** in Validierung, Statuscodes und Fehlerbehandlung.  
-- Nutze Tests, um die Probleme Schritt für Schritt aufzudecken.  
+1. Schreibe **Feature-Tests**, um die Funktionalität der API-Endpunkte zu testen.  
+2. Erstelle nach und nach die benötigten Funktionen der API
+3. Alle Tests sollen mit PEST geschrieben werden
 
 ---
 
@@ -48,28 +48,18 @@ Deine Aufgabe ist es, **Tests zu schreiben**, um vorhandene Fehler zu identifizi
 - [HTTP-Tests](https://laravel.com/docs/http-tests)
 - [Validation](https://laravel.com/docs/validation)
 - [Testing](https://laravel.com/docs/testing)
+- [Hands-On-Beispiel Video](https://www.youtube.com/watch?v=UHnP7ThzLpE&ab_channel=LaravelDaily)
 
 ### **Hilfreiche Konzepte**
-- HTTP-Statuscodes (200er/400er-Bereiche)
-- Laravel Route Model Binding
-- Mass Assignment Protection
-
----
-
-## 📋 Beispiel-Request (POST /api/tasks)
-```json
-{
-    "title": "Testaufgabe",
-    "due_date": "2024-12-31"
-}
-```
+- API Controller
+- Testing mit PEST
 
 ---
 
 ## ⏱️ Vorbereitung
 - Stelle sicher, dass du mit **Laravel-Testing-Grundlagen** vertraut bist.
 - Überlege, welche Testfälle für CRUD-APIs relevant sind (z. B. fehlerhafte Eingaben).
-- Zum eigenen Testen gibt es auch eine Postman Collection (live-assessment-byte5.postman_collection.json)
+- Zum eigenen Testen & Vorbereiten gibt es auch eine Postman Collection (live-assessment-byte5.postman_collection.json)
 
 **Viel Erfolg!** 🚀  
 Bei technischen Fragen: ykupferschmidt@byte5.de
