@@ -6,7 +6,7 @@ Für unser Office benötigen wir eine API zur Verwaltung unserer beliebten **Can
 
 Deine Aufgabe ist es, das vorbereitete Projekt fertigzustellen und einen Controller für die CandyBar API zu entwickeln. 
 
-Dafür soll die Method des [Test-Driven-Developments](https://martinfowler.com/bliki/TestDrivenDevelopment.html) genutzt werden.
+Dafür soll die Methode des [Test-Driven-Developments](https://martinfowler.com/bliki/TestDrivenDevelopment.html) genutzt werden.
 
 ---
 
@@ -15,6 +15,10 @@ Dafür soll die Method des [Test-Driven-Developments](https://martinfowler.com/b
 1. Schreibe **Feature-Tests**, um die Funktionalität der API-Endpunkte zu testen.  
 2. Erstelle nach und nach die benötigten Funktionen der API
 3. Alle Tests sollen mit PEST geschrieben werden
+
+### **Hilfsmittel:**
+1. Es sind alle Hilfsmittel erlaubt die dir beim Arbeitsablauf helfen (Dokumentation, Chatbots, Packages etc.)
+2. Solltest du etwas spezielles benötigen lass es mich vorher wissen, dass ich mich darum kümmern kann.
 
 ---
 
