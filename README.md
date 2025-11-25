@@ -22,12 +22,12 @@ Dafür soll die Methode des [Test-Driven-Developments](https://martinfowler.com/
 
 ---
 
-## 🛠️ Setup  
-0. **Vorbereitung**
+## 🛠️ Setup (Sail)
+1. **Vorbereitung**
     ```
-   Docker muss installiert sein
+   Docker muss installiert und gestartet sein
    ```
-1. **Projekt installieren**  
+2. **Projekt installieren**  
    ```bash
    composer install
    cp .env.example .env
@@ -35,15 +35,38 @@ Dafür soll die Methode des [Test-Driven-Developments](https://martinfowler.com/
    ./vendor/bin/sail artisan key:generate
    ```
 
-2. **Datenbank einrichten**
+3. **Datenbank einrichten**
    ```bash
    ./vendor/bin/sail artisan migrate
    ./vendor/bin/sail artisan db:seed
    ```
 
-3. **Tests ausführen**
+4. **Tests ausführen**
    ```bash
    ./vendor/bin/sail artisan test
+   ```
+
+## 🛠️ Setup (Herd)
+1. **Vorbereitung**
+    ```
+   Herd muss installiert und gestartet sein
+   ```
+2. **Projekt installieren**
+   ```bash
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+3. **Datenbank einrichten**
+   ```bash
+   php artisan migrate
+   php artisan db:seed
+   ```
+
+4. **Tests ausführen**
+   ```bash
+   php artisan test
    ```
 
 
